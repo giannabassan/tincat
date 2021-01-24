@@ -1,0 +1,173 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Headings Section */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navbar Elements */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title Section */
+#title {
+  background: rgb(255, 65, 111);
+  background: linear-gradient(0deg, rgba(237, 119, 98, 1) 20%, rgba(255, 65, 111, 1)100%);
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 8%;
+}
+
+/* Title Image */
+.bs5-col-isnot-relative {
+  position: relative;
+}
+
+.title-img {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 27%;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 1%;
+}
+
+/* Features Section and its icons*/
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.paragraph-features {
+  padding: 3% 10%;
+}
+
+.icon {
+  font-size: 4rem;
+  color: rgb(255, 65, 111);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ef8172;
+}
+
+/* Testimonials and its images */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials {
+  background-color: #EF7468;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press  */
+#press {
+  background-color: #EF7468;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 30px 50px;
+}
+
+/* Princing Section */
+#pricing {
+  padding: 7% 10%;
+}
+
+.btn-pricing-margin {
+  margin-top: 40px;
+}
+
+.pricing-div {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Media Query Section */
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to Action section */
+#cta {
+  background: rgb(255, 65, 111);
+  background: linear-gradient(0deg, rgba(237, 119, 98, 1) 20%, rgba(255, 65, 111, 1)100%);
+  color: white;
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+.social-icons {
+  margin: 3% 1% 2%;
+  color: black;
+}
+
+.social-icons:hover {
+  color: rgb(255, 65, 111);
+}
